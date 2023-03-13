@@ -334,11 +334,11 @@ getAttributesNames() — возвращает названия атрибуто�
 //   console.log(event.target);
 // });
 
-const container = document.querySelector("#elementsContainer");
+// const container = document.querySelector("#elementsContainer");
 
-const newHeader = document.createElement("h1");
-newHeader.textContent = "Новый заголовок";
-container.append(newHeader);
+// const newHeader = document.createElement("h1");
+// newHeader.textContent = "Новый заголовок";
+// container.append(newHeader);
 
 // const mainHeader = document.querySelector("header");
 // const headerCopy = mainHeader.cloneNode(true);
@@ -347,6 +347,6 @@ container.append(newHeader);
 // const htmlExample = "<h2>Еще один заголовок</h2>";
 // container.insertAdjacentHTML("beforeend", htmlExample);
 
-const title = "Текст заголовка";
-const htmlExamp = `<h2>${title}</h2>`;
-container.insertAdjacentHTML("beforeend", htmlExamp);
+// const title = "Текст заголовка";
+// const htmlExamp = `<h2>${title}</h2>`;
+// container.insertAdjacentHTML("beforeend", htmlExamp);
